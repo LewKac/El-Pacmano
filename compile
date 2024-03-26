@@ -1,0 +1,3 @@
+
+#!/bin/bash
+g++ -I ./external/stb/include/ -I ./external/gfx/include/ -I ./external/stb/include/ -I ./external/glad/include  -I ./external/imgui -I ./headers src/main.cpp src/manager.cpp src/pizza.cpp  src/entity.cpp src/pacman.cpp src/glutil.cpp src/wall.cpp src/ghost.cpp external/glad/src/glad.c external/stb/stb_image_impl.cpp external/gfx/src/gfx.cpp external/imgui/imgui.cpp external/imgui/imgui_draw.cpp external/imgui/imgui_impl_glfw.cpp external/imgui/imgui_impl_opengl3.cpp external/imgui/imgui_widgets.cpp -lglut -lglfw -lGL -lGLEW -ldl -pthread -o pacman_game -Wall
