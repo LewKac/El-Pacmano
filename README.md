@@ -3,8 +3,8 @@
 A pacman game with working score and lives.
 
 ## Group memebers.
-- Kacper Lewandowski (kacperl) kacperl@stud.no
-- Artūrs Umbraško (artursu) artursu@stud.no
+- Kacper Lewandowski
+- Artūrs Umbraško
 
 ## Setup instruction
 Setup of the project should be as easy as making labs run. Simply use CMake on the CMakeLists.txt in the root folder of repository.
